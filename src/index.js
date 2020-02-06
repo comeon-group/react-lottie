@@ -95,7 +95,7 @@ export default class Lottie extends React.Component {
   }
 
   registerEvents(eventListeners) {
-    eventListeners.forEach(eventListener => {
+    eventListeners.forEach((eventListener) => {
       this.anim.addEventListener(
         eventListener.eventName,
         eventListener.callback
@@ -104,7 +104,7 @@ export default class Lottie extends React.Component {
   }
 
   deRegisterEvents(eventListeners) {
-    eventListeners.forEach(eventListener => {
+    eventListeners.forEach((eventListener) => {
       this.anim.removeEventListener(
         eventListener.eventName,
         eventListener.callback
@@ -132,7 +132,7 @@ export default class Lottie extends React.Component {
       title,
     } = this.props;
 
-    const getSize = initial => {
+    const getSize = (initial) => {
       let size;
 
       if (typeof initial === 'number') {
@@ -161,7 +161,7 @@ export default class Lottie extends React.Component {
       // Bug with eslint rules https://github.com/airbnb/javascript/issues/1374
       // eslint-disable-next-line jsx-a11y/no-static-element-interactions
       <div
-        ref={c => {
+        ref={(c) => {
           this.el = c;
         }}
         style={lottieStyles}
