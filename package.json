@@ -15,7 +15,7 @@
     "testonly": "mocha --require .scripts/mocha_runner src/**/tests/**/*.js",
     "test": "npm run lint",
     "test-watch": "npm run testonly -- --watch --watch-extensions js",
-    "start": "start-storybook -p 9010",
+    "start": "start-storybook -p 9010"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.35.3",
