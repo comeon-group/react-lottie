@@ -1,9 +1,13 @@
 # Lottie Animation View for React 
 
-[![npm version](https://badge.fury.io/js/react-lottie.svg)](http://badge.fury.io/js/react-lottie)
+[![npm version](https://img.shields.io/npm/v/@comeon-stockholm/react-lottie?color=red&style=for-the-badge)](https://www.npmjs.com/package/@comeon-stockholm/react-lottie)
+
+
+[![npm version](https://img.shields.io/github/package-json/v/comeon-stockholm/react-lottie?label=Github&style=for-the-badge)](https://github.com/comeon-stockholm/react-lottie)
+
 
 ## Demo
-https://chenqingspring.github.io/react-lottie
+https://velusgautam.github.io/react-lottie
 
 ## Wapper of bodymovin.js
 
@@ -12,7 +16,7 @@ https://chenqingspring.github.io/react-lottie
 ## Why Lottie?
 
 #### Flexible After Effects features
-We currently support solids, shape layers, masks, alpha mattes, trim paths, and dash patterns. And we’ll be adding new features on a regular basis.
+We currently support solids, shape layers, masks, alpha mattes, trim paths, and dash patterns. And we’ll be adding new features regularly.
 
 #### Manipulate your animation any way you like
 You can go forward, backward, and most importantly you can program your animation to respond to any interaction.
@@ -37,7 +41,7 @@ Import pinjump.json.json as animation data
 
 ```jsx
 import React from 'react'
-import Lottie from 'react-lottie';
+import Lottie from '@comeon-stockholm/react-lottie';
 import * as animationData from './pinjump.json'
 
 export default class LottieControl extends React.Component {
@@ -102,7 +106,7 @@ pixel value for containers height.
 
 **eventListeners** *optional* [default: `[]`]
 
-This is an array of objects containing a `eventName` and `callback` function that will be registered as  eventlisteners on the animation object. refer to [bodymovin#events](https://github.com/bodymovin/bodymovin#events) where the mention using addEventListener, for a list of available custom events.
+This is an array of objects containing one `eventName` and `callback` function that will be registered as  eventlisteners on the animation object. refer to [bodymovin#events](https://github.com/bodymovin/bodymovin#events) where the mention using addEventListener, for a list of available custom events.
 
 example:
 ```jsx
