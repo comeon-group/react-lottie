@@ -21,7 +21,7 @@
     "@kadira/storybook": "^2.35.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-eslint": "^6.1.2",
+    "babel-eslint": "^9.0.0",
     "babel-loader": "^6.2.5",
     "babel-plugin-transform-runtime": "^6.15.0",
     "babel-polyfill": "^6.26.0",
