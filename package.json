@@ -40,7 +40,7 @@
     "react": "^15.6.2",
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "^15.6.2",
-    "sinon": "^1.17.6",
+    "sinon": "^10.0.0",
     "standard-version": "^7.1.0"
   },
   "peerDependencies": {
